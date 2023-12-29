@@ -12,7 +12,17 @@
     "@mdx-js/react": "https://esm.sh/v135/@mdx-js/react@2.3.0",
     "react-dom": "https://esm.sh/v135/react-dom@18.2.0",
     "react-dom/": "https://esm.sh/v135/react-dom@18.2.0/",
-    "react": "https://esm.sh/v135/react@18.2.0"
+    "react": "https://esm.sh/v135/react@18.2.0",
+    "to-vfile": "https://esm.sh/v135/*to-vfile@8.0.0",
+    "vfile-matter": "https://esm.sh/v135/*vfile-matter@5.0.0",
+    "vfile": "https://esm.sh/v135/vfile@6.0.1",
+    "xml2js": "https://esm.sh/v135/*xml2js@0.6.2"
   },
-  "scopes": {}
+  "scopes": {
+    "https://esm.sh/v135/": {
+      "sax": "https://esm.sh/v135/sax@1.3.0",
+      "xmlbuilder": "https://esm.sh/v135/xmlbuilder@11.0.1",
+      "yaml": "https://esm.sh/v135/yaml@2.3.4"
+    }
+  }
 }
