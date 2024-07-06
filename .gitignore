@@ -1,1 +1,2 @@
-.vscode/
+.vscode
+routes/_exports.ts

@@ -7,12 +7,21 @@
     "aleph/plugins/react": "https://deno.land/x/aleph@1.0.0-beta.44/framework/react/plugin.ts",
     "aleph/plugins/deploy": "https://deno.land/x/aleph@1.0.0-beta.44/plugins/deploy.ts",
     "aleph/plugins/mdx": "https://deno.land/x/aleph@1.0.0-beta.44/plugins/mdx.ts",
+    "aleph/plugins/unocss": "https://deno.land/x/aleph@1.0.0-beta.44/plugins/unocss.ts",
     "aleph/dev": "https://deno.land/x/aleph@1.0.0-beta.44/server/dev.ts",
     "aleph/server": "https://deno.land/x/aleph@1.0.0-beta.44/server/mod.ts",
     "@mdx-js/react": "https://esm.sh/v135/@mdx-js/react@2.3.0",
+    "@unocss/core": "https://esm.sh/v135/@unocss/core@0.50.6",
+    "@unocss/preset-uno": "https://esm.sh/v135/@unocss/preset-uno@0.50.6",
+    "@unocss/reset": "https://esm.sh/v135/@unocss/reset@0.61.0",
+    "@unocss/reset/": "https://esm.sh/v135/@unocss/reset@0.61.0/",
     "react-dom": "https://esm.sh/v135/react-dom@18.2.0",
     "react-dom/": "https://esm.sh/v135/react-dom@18.2.0/",
-    "react": "https://esm.sh/v135/react@18.2.0"
+    "react": "https://esm.sh/v135/react@18.2.0",
+    "rehype/highlight": "https://esm.sh/v135/rehype-highlight@5.0.2",
+    "rehype/slug": "https://esm.sh/v135/rehype-slug@5.0.1",
+    "remark/frontmatter": "https://esm.sh/v135/remark-frontmatter@4.0.1",
+    "remark/gfm": "https://esm.sh/v135/remark-gfm@3.0.1"
   },
   "scopes": {}
 }

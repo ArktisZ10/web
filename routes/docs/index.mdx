@@ -6,24 +6,47 @@ author: ije
 import { Head } from "aleph/react"
 
 <Head>
-  <title>About - Docs</title>
+  <title>About - Projects</title>
 </Head>
 
-# About this webpage
+# About this website
 
-## Built with Deno and Aleph.js
+## Still under construction
+This website is a slow work in-progress. The layout and design is based on []()
 
-Aleph.js is modern framework that doesn't need **webpack** or other bundler
-since it uses the [ES Module] syntax during development. Every module only needs
-to be compiled once, when a module changes, Aleph.js just needs to re-compile
-that single module. There is no time wasted _re-bundling_ everytime a change is
-made. This, along with Hot Module Replacement (**HMR**) and **Fast Refresh**,
-leads to instant updates in the browser.
+## Aleph.js as framework
 
-Aleph.js uses modern tools to build your app. It transpiles code using [swc] in
-WASM with high performance, and bundles modules with [esbuild] at optimization
-time extremely fast.
+*From the [Aleph.js](https://alephjs.org/docs) documentation:*
 
-Aleph.js works on top of **Deno**, a _simple_, _modern_ and _secure_ runtime for
-JavaScript and TypeScript. All dependencies are imported using URLs, and managed
-by Deno cache system. No `package.json` and `node_modules` directory needed.
+> **Aleph.js** (or **Aleph** or** א **or** 阿莱夫, ˈɑːlɛf) is a fullstack framework 
+> in [Deno](https://deno.com/). Inspired by [Next.js](https://nextjs.org/),
+> [Remix](https://remix.run/) and [Vite](https://vitejs.dev/).
+> 
+>
+>> The name is taken from the book
+>>[The Aleph](http://phinnweb.org/links/literature/borges/aleph.html) by **Jorge
+>> Luis Borges.**
+> 
+>
+> Aleph.js is modern framework that doesn't need webpack or other bundler since it
+> uses the ES Module syntax during development. Every module only needs to be
+> compiled once, when a module changes, Aleph.js just needs to re-compile that
+> single module. There is no time wasted re-bundling everytime a change is made.
+> This, along with Hot Module Replacement (HMR) and Fast Refresh, leads to instant
+> updates in the browser.
+> 
+>
+> Aleph.js uses modern tools to build your app. It transpiles code using swc in WASM
+> with high performance, and bundles modules with esbuild at optimization time 
+> extremely fast.
+> 
+>
+> Aleph.js works on top of Deno, a simple, modern and secure runtime for JavaScript
+> and TypeScript. All dependencies are imported using URLs, and managed by Deno cache
+> system. No package.json and node_modules directory needed.
+
+## UnoCSS as styling engine
+UnoCSS is an atomic CSS engine that attempts to translate CSS classes according to
+predefined rules in order to generatet the CSS for a given node. Its standard
+preset is fully compatible with Tailwind, while still being highly flexible and
+extendable.

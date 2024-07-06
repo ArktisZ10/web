@@ -2,16 +2,17 @@ import { Link } from "aleph/react";
 
 export default function Header() {
   return (
-    <header>
-      <div className="header-wrapper">
+    <header className="sticky top-0 w-full h-20">
+      <div className="flex items-center justify-between w-[90%] max-w-[900px] h-full m-x-auto">
         <h1>
           <Link to="/">
             Börne.se
           </Link>
         </h1>
-        <nav>
-          <a href="https://github.com/ArktisZ10">
+        <nav className="flex items-center gap-5">
+          <a href="https://github.com/ArktisZ10" className="text-[#454545] hover:text-black">
             <svg
+              className="w-5 h-5"
               viewBox="0 0 1024 1024"
               fill="currentColor"
             >
